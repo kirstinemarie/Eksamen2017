@@ -1,0 +1,101 @@
+/* Scss Document */
+
+$brand-color: #297849;
+$hover-color: #135E31;//variable 
+@mixin rounded-corners ($myradius: 5px){ //mix in
+    border-radius: $myradius;
+    -webkit-border-radius: $myradius;}  
+
+$my-font: 'Roboto', sans-serif;
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+//header start
+header.masthead{
+	background-image: url(../img/Stikkelsbaer.png);
+}
+
+header {
+	background-image: url(../img/overskrift.png);
+	background-size: cover;
+	background-repeat:no-repeat;
+	width: auto;
+	height: 200px;
+	
+}
+
+
+.overskrift{
+	width: 80%;
+	height: auto;
+	transition-delay: 5s;
+	margin-bottom: 50px;
+}
+.logo{
+	width: 20%;
+	height: auto;
+}
+.btn-primary :hover{
+	background-color: black;
+}
+.konknap{
+	border-radius: 0px;
+}
+//header slut 
+
+
+
+//menu start 
+#mainNav .navbar-brand {
+	text-transform: uppercase;
+	 font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#mainNav {
+	.navbar-nav 
+	{li 
+		{.nav-item 
+			{a
+				{.nav-link {
+    color: rgb(255, 255, 255);
+					}}}}}}
+	
+.navbar-nav {
+    > li.nav-item {
+      > a {
+       
+      }
+        >a.selected{
+            color:#C21D1F;
+            border-bottom: 1px solid $brand-color;
+        }
+	}}
+	
+
+
+	
+//menu slut
+
+//footer start 
+footer{
+	width: 100%;
+}
+.instagram h4{
+	margin-top: 50px;
+}
+.medie{
+	width: 2.5%;
+	margin: 5px 48.80%;
+	a:hover{
+		opacity: 0.8;
+		align-items: center;
+	}
+}
+
+//footer slut 

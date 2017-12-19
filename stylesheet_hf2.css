@@ -1,0 +1,57 @@
+/* Scss Document */
+* {
+  font-family: 'Roboto', sans-serif; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+header.masthead {
+  background-image: url(../img/Stikkelsbaer.png); }
+
+header {
+  background-image: url(../img/overskrift.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 200px; }
+
+.overskrift {
+  width: 80%;
+  height: auto;
+  transition-delay: 5s;
+  margin-bottom: 50px; }
+
+.logo {
+  width: 20%;
+  height: auto; }
+
+.btn-primary :hover {
+  background-color: black; }
+
+.konknap {
+  border-radius: 0px; }
+
+#mainNav .navbar-brand {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif; }
+
+#mainNav .navbar-nav li .nav-item a .nav-link {
+  color: white; }
+
+.navbar-nav > li.nav-item > a.selected {
+  color: #C21D1F;
+  border-bottom: 1px solid #297849; }
+
+footer {
+  width: 100%; }
+
+.instagram h4 {
+  margin-top: 50px; }
+
+.medie {
+  width: 2.5%;
+  margin: 5px 48.80%; }
+  .medie a:hover {
+    opacity: 0.8;
+    align-items: center; }
